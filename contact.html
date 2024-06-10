@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+<fieldset>
+    <legend>
+        Contact Us
+    </legend>
+    <fieldset>
+
+       <legend>
+            Personal Details
+        </legend>
+        <form action="">
+            <label for="Name">Name*</label>
+            <br>
+            <input type="text"id="Name"required="required"style="width: 100%;height: 50px">
+            <br><br>
+            <label for="email">Email*</label>
+            <br>
+            <input type="email"id="email"required="required"style="width: 100%;height: 50px">
+            <br><br>
+            <label for="message">Message:</label>
+            <br><br>
+            <textarea name="" id="message" cols="100" rows="10"required="required"></textarea>
+
+
+
+
+
+
+        </form>
+
+    </fieldset>
+    <br>
+    <p>If you dont have a company skip the registration below:</p>
+    <fieldset>
+        <legend>
+            Company Details
+        </legend>
+        <label for="bname">Business Name*</label>
+        <br>
+        <input type="text"id="bname"><br><br>
+        <label for="pnumber">Phone Number</label><br>
+        <input type="text"id="pnumber"><br><br>
+        <label for="wurl">Website URL</label><br>
+        <input type="url"id="wurl"><br><br>
+        <label for="topic">Topic:</label>
+        <select name="" id="topic"style="background-color: navajowhite">
+            <option value="---choose---"disabled="disabled" >----Choose----</option>
+            <option value="general">General</option>
+            <option value="Support">Support</option>
+            <option value="Purchases">Purchases</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        <label for="message:">Message:</label><br>
+        <textarea name="" id="message:" cols="80" rows="10"></textarea>
+
+
+    </fieldset>
+
+
+<button type="submit"style="color: white;background-color: blue;width: 80px;height: 40px;margin-top: 10px">
+    Send
+</button>
+
+
+
+
+</fieldset>
+
+
+
+
+
+</body>
+</html>

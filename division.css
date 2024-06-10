@@ -1,0 +1,42 @@
+#first{
+    background-color:aquamarine;
+    margin: 50px;
+    padding: 30px;
+
+}
+.mydiv{
+    background-color:deepskyblue;
+    padding: 30px;
+    margin-top: 50px;
+
+}
+#main{
+    text-align: center;
+}
+.mymain{
+    display: flex;
+}
+#course1 {
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+
+}
+
+#course2{
+    background-color: burlywood;
+    color: white;
+    padding: 5px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#course3{background-color: darkblue;
+color: white;
+padding: 5px;
+display: flex}
+.course{text-align: center}
+#first:hover{background-color: blanchedalmond}
+#first:hover,.mydiv:hover{background-color: burlywood}
+#course1,#course2,#course3

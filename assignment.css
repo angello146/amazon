@@ -1,0 +1,28 @@
+ button{background-color: blue;
+       color: whitesmoke;
+       width: 50%;
+    height: 30px;}
+form{
+    width: 50%;
+    height: 350px;
+margin-top: 40px;
+    padding: 50px;
+    margin-left: 280px;
+
+}
+#second{
+    background-image: url("images/assignment.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    width: 50px;
+    height: 50px;
+ margin-right: 380px;
+   margin-left:105px;
+margin-top: 40px;
+}
+#maindiv{
+    display: flex;
+}
+
+

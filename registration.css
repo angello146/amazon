@@ -1,0 +1,26 @@
+input[type=text]:focus,input[type=email],input[type=password],input[type=date],textarea{
+background-color: #f4baba;
+    width: 60%;
+    height: 40px;
+}
+form{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: steelblue;
+    height: 600px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 60px;
+}
+label{
+    width: 25%;
+    margin-right: 5px;
+
+}
+fieldset{
+    height: 600px;
+}
